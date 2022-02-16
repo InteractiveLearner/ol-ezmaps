@@ -1,7 +1,7 @@
 "use strict";
 
 import Core from "../api/tools/core.js";
-import Templated from "../../api/components/templated.js";
+import Templated from "../api/components/templated.js";
 import Map from "../api/ol/map.js";
 import Style from "../api/tools/style.js"
 import Scales from "../api/tools/scales.js";
