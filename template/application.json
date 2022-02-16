@@ -1,0 +1,48 @@
+{   "view": [-95.3468, 54.1304],
+    "layers": {
+        "Clinics Addressed": {
+            "id": "clinicsOne",
+            "shapeType": "point",
+            "url": "./data/clinic_list.geojson",
+            "title": "Clinics Addressed",
+            "style": {
+                "styleType": "default",
+                "color": "",
+                "opacity": 1,
+                "strokeColor": "",
+                "scale": "",
+                "icon": "../api/assets/icon.png",
+                "theme": {
+                    "size": {
+                        "proportional": "",
+                        "legend": ""
+                    },
+                    "color": {
+                        "choropleth": "",
+                        "ranking": "",
+                        "identified": "",
+                        "scheme": [],
+                        "legend": ""
+                    }
+                }
+            },
+            "visible": true,
+            "popup": {
+                "unformatted": [
+                    "ADDRESS_FULL", 
+                    "CITY", 
+                    "PROVINCE", 
+                    "POSTAL_CODE",
+                    "COUNTRY"
+                ],
+        "formatted": [
+                    "Full Address", 
+                    "City", 
+                    "Province",
+                    "Postal Code",
+                    "Country"
+                ]
+            }
+        }
+    }
+}
