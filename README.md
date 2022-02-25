@@ -1,6 +1,19 @@
 # OpenLayers EZ Maps
 Quickly develop basic and / or thematic OpenLayers web maps without coding by filling out a JSON config file!
 
+## TODO
+
+- [ ] Add classifications to choropleth
+  - [ ] Natural Breaks
+  - [ ] Equal Intervals
+  - [ ] Quantiles
+  - [ ] Standard Deviation
+- [ ] Add more breaks for choropleth classifications
+  - [ ] 2 to 10
+- [ ] Button inside map container that updates styling 
+- [ ] Refactor code
+- [ ] Update documentation
+
 ## Features of the Application
 
 - Map Container 
